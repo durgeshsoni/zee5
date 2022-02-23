@@ -1,0 +1,136 @@
+#container{
+position: fixed;
+margin: 0px;
+top: 0%;
+margin-left: -5px;
+width: 100%;
+background: #0f0617;
+height: 80px;
+padding: 15px;
+box-sizing: border-box;
+display: flex;
+}
+#logo {
+    height: 45px;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+    margin-left: -50px;
+}
+#box1 ul li {
+    float: left;
+    width: 100px;
+  text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: hsla(0,0%,100%,.9);
+    position: relative;
+}
+
+li a::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+li a:hover:after{
+    color: #ffffff;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+body {
+    font-family: NotoSansRegular,sans-serif;
+    background-color: #0f0617;
+    font-weight: 400;
+}
+#box2 {
+    margin-left: 370px;
+    justify-content: space-between;
+}
+#box2 ul li {
+    text-align: center;
+    float: left;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+#box2 ul li:nth-child(1){
+    width: 50px;
+}
+#box2 ul li:nth-child(2){
+    width: 100px;
+}
+#box2 ul li:nth-child(3){
+    width: 120px;
+}
+#box2 ul li:nth-child(4){
+    width: 50px;
+}
+
+#buy {
+    color: #fff;
+    cursor: pointer;
+    background-color: #8230c6;
+    border-radius: 6px;
+    font-size: 13px;
+    height: 25px;
+    margin-top: -5px;
+    }
+#log {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    height: 20px;
+   }
+#search {
+height: 30px;
+width: 20px;
+}
+#menu  {
+    margin-left: -30px;
+}
+#log:hover{
+    background-color: #fff;
+    color: #0f0617;
+}
+#buy:hover{
+    background-color: #6d1bb1;
+}
+
+   #menu ul li {
+    background-color: black;
+    width: 200px;
+    text-align: left;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display:block;
+}
+
+#menu ul {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #0f0617;
+}
+ul li span {
+    display: none;
+    font-size: 13px;
+   border: 1px solid #fff;
+    color: #fff;
+    width: 60px;
+}
+ul li:hover span {
+    display: block;
+}
