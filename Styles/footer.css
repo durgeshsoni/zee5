@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: rgba(245, 238, 238, 0.699);
+
+}
+#footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 700px;
+    background-color: #0f0617;
+    font-size: 12px;
+}
+.row{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top:30px;
+    
+}
+.footer-col>div{
+    margin-top:16px;
+}
+.end{
+    margin-top:60px;
+    width: 50%;
+    height: 50px;
+    font-size: 13px;
+    
+    margin-left: 150px;
+}
+h3{
+    font-weight: 20px;
+    color: white;
+}
+.logDiv{
+    
+    width: 80%;
+    height: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.container{
+    width: 99%;
+    height: 495px;
+    
+}
+.logo{
+    width: 370px;
+    gap: 10px;
+    display: flex;
+    height: 38px;
+    margin-top: 15px;
+    
+}  
+.leftlogo{
+    width:330px;
+    
+    display: flex;
+    border: 2px solid #0f0617;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+img{
+    width: 113px;
+    height:37px;
+    
+}
+a{
+    text-decoration:none;
+}
+.logo-On{
+    width:40px;
+    height:40px;
+}
+.about{
+    margin-top:30px;
+    width:400px;
+    height:14px;
+  
+    margin-left: 150px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    
+}
+p{
+    text-align: center;
+    font-size: 11px;
+    
+}
+.topFooter{
+    
+    width:  80%;;
+    height: 210px;
+  
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top:20px;
+}
+h4{
+    margin-top: 10px;
+}
+.leftlogo a{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(37, 35, 35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftlogo i{
+    font-size: 15px;
+    color: bisque;
+}
+.leftlogo h4{
+    margin-top: 0px;
+}
+.leftlogo .fb:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+.leftlogo .insta:hover{
+    background-color: rgb(211, 12, 128);
+    cursor: pointer;
+}
+.leftlogo .twitter:hover{
+    background-color: rgb(20, 153, 230);
+    cursor: pointer;
+}
+.leftlogo .youtube:hover{
+    background-color: rgb(252, 47, 10);
+    cursor: pointer;
+}
